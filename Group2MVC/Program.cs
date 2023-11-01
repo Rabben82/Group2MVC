@@ -40,5 +40,10 @@ namespace Group2MVC
         {
             Console.WriteLine("Hej");
         }
+
+        private void SecondMethodFromBransch()
+        {
+            Console.WriteLine("Hej");
+        }
     }
 }
