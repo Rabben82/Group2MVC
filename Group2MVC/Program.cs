@@ -4,12 +4,12 @@ namespace Group2MVC
     {
         public static void Main(string[] args)
         {
-            var bob = WebApplication.CreateBuilder(args);
+            var bobthebuilder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            bob.Services.AddControllersWithViews();
+            bobthebuilder.Services.AddControllersWithViews();
 
-            var app = bob.Build();
+            var app = bobthebuilder.Build();
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
