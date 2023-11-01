@@ -4,6 +4,8 @@ namespace Group2MVC
     {
         public static void Main(string[] args)
         {
+            int sum;
+
             var bob = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
