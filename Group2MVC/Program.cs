@@ -33,5 +33,15 @@ public class Program
         app.Run();
 
             
+        }
+        private void FirstMethod()
+        {
+            Console.WriteLine("Hej");
+        }
+
+        private void SecondMethodFromBransch()
+        {
+            Console.WriteLine("Hej");
+        }
     }
 }
