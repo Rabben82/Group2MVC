@@ -31,6 +31,12 @@ namespace Group2MVC
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
             app.Run();
+
+            
+        }
+        private void FirstMethod()
+        {
+            Console.WriteLine("Hej");
         }
     }
 }
