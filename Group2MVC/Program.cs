@@ -46,6 +46,6 @@ public class Program
 
     private void ThirdMethodFrom()
     {
-        Console.WriteLine("Hello");
+        Console.WriteLine("Hello World");
     }
 }
