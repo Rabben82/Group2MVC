@@ -43,4 +43,9 @@ public class Program
     {
         Console.WriteLine("Hej");
     }
+
+    private void ThirdMethodFrom()
+    {
+        Console.WriteLine("Hej");
+    }
 }
